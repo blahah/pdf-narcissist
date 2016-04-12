@@ -1,0 +1,28 @@
+{
+  "name": "pdf-narcissist",
+  "version": "0.1.0",
+  "description": "Hide a PDF inside a thumbnail of its own first page",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "author": "Richard Smith-Unna <rik@fathomlabs.io>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "compressjs": "^1.0.3",
+    "lsb": "^0.1.0",
+    "path-exists": "^2.1.0",
+    "pdf-to-png": "github:blahah/pdf-to-png",
+    "png-coder": "^0.2.1",
+    "tempfile": "^1.1.1"
+  },
+  "devDependencies": {
+    "md5": "^2.1.0",
+    "standard": "^6.0.8",
+    "tape": "^4.4.0"
+  },
+  "bin": {
+    "pdf-narcissist": "cli.js"
+  }
+}
