@@ -2,6 +2,8 @@
 
 Hide a PDF inside a thumbnail of its own first page
 
+[![Travis](https://img.shields.io/travis/blahah/pdf-narcissist.svg)](https://travis-ci.org/blahah/pdf-narcissist)
+
 ### How it works
 
 `pdf-narcissist` creates a high definition image of the first page of a PDF using [pdf-to-png](https://github.com/freeman-lab/pdf-to-png). Then it compressess the original PDF with bzip2 (using [compressjs](https://github.com/cscott/compressjs)), and stores the base64 representation of the compressed PDF in the least significant bits of the image using [lsb](https://github.com/hughsk/lsb).
