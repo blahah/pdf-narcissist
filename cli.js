@@ -1,5 +1,5 @@
 var program = require('commander')
-var pdf_narcissist = require('..')
+var pdf_narcissist = require('.')
 var exists = require('path-exists').sync
 
 function checkFile (file, name) {
@@ -13,7 +13,7 @@ function checkFile (file, name) {
 }
 
 program
-  .version(require('../package.json').version)
+  .version(require('./package.json').version)
 
 program
   .command('encode <pdf> <png>')
