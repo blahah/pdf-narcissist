@@ -3,7 +3,7 @@ var md5 = require('md5')
 var test = require('tape')
 var narcissist = require('.')
 
-test('compression-decompression', function (t) {
+test('compression-decompression', { timeout: 30000 }, function (t) {
   var pdf_in = './assets/stega.pdf'
   var png = './assets/stega.png'
   var pdf_out = './assets/stega_dc.pdf'
