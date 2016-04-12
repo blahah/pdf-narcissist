@@ -1,6 +1,6 @@
 ## pdf-narcissist
 
-Hide a PDF inside a thumbnail of its own first page
+Hide a PDF inside a thumbnail of its own first page.
 
 [![Travis](https://img.shields.io/travis/blahah/pdf-narcissist.svg)](https://travis-ci.org/blahah/pdf-narcissist)
 
