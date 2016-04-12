@@ -10,6 +10,24 @@ Hide a PDF inside a thumbnail of its own first page
 
 #### Command-line
 
+```
+$ pdf-narcissist --help
+
+Usage: pdf-narcissist [options] [command]
+
+
+Commands:
+
+  encode <pdf> <png>  encode a PDF into a PNG thumbnail of itself
+  decode <png> <pdf>  extract a PDF from a PNG
+
+Options:
+
+  -h, --help     output usage information
+  -V, --version  output the version number
+
+```
+
 ```bash
 pdf-narcissist encode in.pdf encoded.png
 ```
@@ -34,6 +52,14 @@ narcissist.decode('encoded.png', 'out.pdf', function(err) {
 
 ### Installation
 
+For CLI use
+
 ```bash
 npm install --global pdf-narcissist
+```
+
+For library use
+
+```bash
+npm install --save pdf-narcissist
 ```
